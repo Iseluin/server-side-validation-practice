@@ -1,0 +1,29 @@
+{
+  "name": "curriculum-backend-server-side-validation-practice",
+  "version": "1.0.0",
+  "description": "Server-side validation with express-validator",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit ./tests",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReCoded-Org/curriculum-backend-server-side-validation-practice.git"
+  },
+  "author": "Re:Coded",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReCoded-Org/curriculum-backend-server-side-validation-practice/issues"
+  },
+  "homepage": "https://github.com/ReCoded-Org/curriculum-backend-server-side-validation-practice#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
